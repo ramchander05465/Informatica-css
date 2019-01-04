@@ -1,0 +1,19 @@
+{
+  "name": "inform-css-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramchander05465/inform-css-theme.git"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramchander05465/inform-css-theme/issues"
+  },
+  "homepage": "https://github.com/ramchander05465/inform-css-theme#readme"
+}
