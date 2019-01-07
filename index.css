@@ -264,6 +264,10 @@ input:focus+.radio-slider {
   border: none;
 }
 
+.namecolumn {
+    color: #178bff;
+}
+
 
 
 
@@ -493,4 +497,8 @@ body.theme-t {
 .theme-t .btn-delete {
   background: transparent;
   border: none;
+}
+
+.theme-t .namecolumn {
+    color: #11af00;
 }
