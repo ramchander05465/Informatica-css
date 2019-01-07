@@ -54,7 +54,7 @@ body {
 
 .user-actions--child--f {
   border-left: 1px solid #c7c7c7;
-  color: #178bff;
+  color: #0068d0;
 }
 
 .user-actions--child--f:after {
@@ -164,7 +164,7 @@ body {
 
 #prev,
 #next {
-  color: #43a1ff;
+  color: #0054a7;
 }
 
 #prev.disableClick,
@@ -260,6 +260,237 @@ input:focus+.radio-slider {
 
 .btn-save,
 .btn-delete {
+  background: transparent;
+  border: none;
+}
+
+
+
+
+/*-- Second Theme CSS Styles --*/
+body.theme-t {
+  background: #eeeeee;
+}
+.theme-t .app-header--cont {
+  border-bottom: solid 1px #C7C7C7;
+}
+
+.theme-t .app--footer--container {
+  border-bottom: solid 1px #C7C7C7;
+}
+
+.theme-t .app-grid--container {
+  background: #fff;
+}
+
+.theme-t .user-actions--child--f {
+  border-left: 1px solid #c7c7c7;
+  color: #11af00;
+}
+
+.theme-t .user-actions--child--f:after {
+  border-top: 5px solid #11af00;
+}
+
+.theme-t .user-actions--child--e {
+  border-left: 1px solid #c7c7c7;
+}
+
+.theme-t .grid-headers--container {
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+.theme-t .grid-headers--container--child--def.sortingbg {
+  background: #e4fcd6;
+  border-left: 1px solid #11af00;
+  border-right: 1px solid #11af00;
+}
+
+.theme-t .grid--row--container {
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.theme-t .grid--row--container:hover {
+  background-color: #f2ffe9;
+}
+
+.theme-t #search--filter {
+  border: 1px solid #C7C7C7;
+}
+
+/*
+* Header Navbar
+*/
+.theme-t .navbar .search.form-control {
+  background-color: #535353;
+  color: #000;
+}
+
+.theme-t .navbar .form-control::placeholder {
+  color: #000000;
+}
+
+.theme-t .form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.theme-t .form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.theme-t .bg-black {
+  background-color: #000000;
+}
+
+.theme-t .navbar-nav {
+  border-left: 1px solid #777777;
+}
+
+/*
+* Sidebar
+*/
+
+.theme-t .sidebar {
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.theme-t .sidebar-sticky {
+  background: rgba(0, 0, 0, .6)
+}
+
+.theme-t .sidebar .nav-link {
+  color: #333;
+}
+
+.theme-t .sidebar .nav-link .feather {
+  color: #999;
+}
+
+.theme-t .sidebar .nav-link:hover {
+  color: #11af00;
+  background-color: #000000;
+}
+
+.theme-t .sidebar .nav-link.active {
+  color: #11af00;
+  background-color: #000000;
+}
+
+.theme-t .sidebar .nav-link:hover .feather,
+.theme-t .sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+
+/*
+* Pagination
+*/
+.theme-t .pagination {
+  border-top: 1px solid #000000;
+}
+
+.theme-t #prev,
+.theme-t #next {
+  color: #11af00;
+}
+
+.theme-t #prev.disableClick,
+.theme-t #next.disableClick {
+  color: #e7e7e7;
+}
+
+
+.theme-t .radio-switch input:focus + .radio-slider.round{
+  outline: #ff0000 auto 5px;
+}
+
+.theme-t .radio-slider {
+  background-color: #ccc;
+}
+
+.theme-t .radio-slider:before {
+  background-color: white;
+}
+
+.theme-t input:checked+.radio-slider {
+  background-color: #11af00;
+}
+
+.theme-t input:focus+.radio-slider {
+  box-shadow: 0 0 1px #11af00;
+}
+
+/* Rounded sliders */
+
+.theme-t .actionbutton .btn-secondary {
+  color: #212121;
+}
+
+.theme-t .actionbutton .btn-secondary:not(:disabled):not(.disabled):active,
+.theme-t .actionbutton .btn-secondary:not(:disabled):not(.disabled).active,
+.theme-t .actionbutton.show>.btn-secondary.dropdown-toggle {
+  color: #4e555b;
+  background-color: transparent;
+  border-color: #4e555b;
+}
+
+.theme-t .actionbutton .btn-secondary:focus,
+.theme-t .btn-secondary.focus,
+.theme-t .actionbutton .btn-secondary:not(:disabled):not(.disabled):active:focus,
+.theme-t .actionbutton .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.theme-t .actionbutton.show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem rgba(130, 138, 145, 0);
+}
+
+.theme-t .grid--row--container.rowselected,
+.theme-t .grid--row--container.error {
+  background: #e4fcd6;
+}
+
+.theme-t .rowselected:after {
+  background: #e4fcd6;
+  border-left: 5px solid #11af00;
+}
+
+.theme-t .grid--row--container.error:before {
+  border-left: 5px solid #eb0c15;
+}
+
+.theme-t .error .grid--calender--field {
+  border: 1px solid #ff0000;
+}
+
+/* custom checkbox */
+
+.theme-t .checkmark {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* On mouse-over, add a grey background color */
+
+.theme-t .checkbox-container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.theme-t .checkbox-container input:checked~.checkmark {
+  background-color: #000000;
+}
+
+.theme-t .checkbox-container .checkmark:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+
+.theme-t .btn-save,
+.theme-t .btn-delete {
   background: transparent;
   border: none;
 }
